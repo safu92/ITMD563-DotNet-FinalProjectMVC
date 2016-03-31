@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Final_Project_MVC.Models.Cart>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<table class="table">
+    <tr><th>ID</th>
+    <th>Product Name</th>
+    <th>Product Description</th>
+    <th>Price</th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr><td>
+            @Html.DisplayFor(modelItem => item.CartID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Product.ProductName)
+        </td>
+    <td>@Html.DisplayFor(modelItem => item.Product.ProductDescription)</td>
+    <td>@Html.DisplayFor(modelItem => item.Product.Price)</td>
+        <td>
+
+            @Html.ActionLink("Delete", "Delete", new { id=item.CartID })
+        </td>
+    </tr>
+}
+
+</table>
+@Html.ActionLink("Confirm Order", "ConfirmOrder")

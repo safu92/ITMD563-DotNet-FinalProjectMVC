@@ -1,0 +1,32 @@
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\Final Project MVC.dll.config
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\Final Project MVC.dll
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\Final Project MVC.pdb
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\Antlr3.Runtime.dll
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\EntityFramework.dll
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\EntityFramework.SqlServer.dll
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\Microsoft.Web.Infrastructure.dll
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\Newtonsoft.Json.dll
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\System.Web.Helpers.dll
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\System.Web.Mvc.dll
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\System.Web.Optimization.dll
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\System.Web.Razor.dll
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\System.Web.WebPages.Deployment.dll
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\System.Web.WebPages.dll
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\System.Web.WebPages.Razor.dll
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\WebGrease.dll
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\EntityFramework.xml
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\EntityFramework.SqlServer.xml
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\System.Web.Helpers.xml
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\System.Web.Mvc.xml
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\System.Web.Optimization.xml
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\System.Web.Razor.xml
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\System.Web.WebPages.xml
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\System.Web.WebPages.Deployment.xml
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\System.Web.WebPages.Razor.xml
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\Antlr3.Runtime.pdb
+D:\dot net projects\Final Project MVC\Final Project MVC\bin\Newtonsoft.Json.xml
+D:\dot net projects\Final Project MVC\Final Project MVC\obj\Release\Final_Project_MVC.Migrations.InitialCreate.resources
+D:\dot net projects\Final Project MVC\Final Project MVC\obj\Release\Final Project MVC.csproj.GenerateResource.Cache
+D:\dot net projects\Final Project MVC\Final Project MVC\obj\Release\Final Project MVC.dll
+D:\dot net projects\Final Project MVC\Final Project MVC\obj\Release\Final Project MVC.pdb
+D:\dot net projects\Final Project MVC\Final Project MVC\obj\Release\Final Project MVC.csprojResolveAssemblyReference.cache

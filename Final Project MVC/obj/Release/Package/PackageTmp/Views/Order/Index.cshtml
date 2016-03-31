@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Final_Project_MVC.Models.Order>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.OrderDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th>Customer</th>
+        <th>Address</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Zip Code</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.OrderDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Status)
+        </td>
+        <td>@Html.DisplayFor(modelItem => item.Customer.FirstName) @Html.DisplayFor(modelItem => item.Customer.LastName)</td>
+        <td>@Html.DisplayFor(modelItem => item.Customer.Address)</td>
+        <td>@Html.DisplayFor(modelItem => item.Customer.City)</td>
+        <td>@Html.DisplayFor(modelItem => item.Customer.State)</td>
+        <td>@Html.DisplayFor(modelItem => item.Customer.Zipcode)</td>
+        <td>@Html.DisplayFor(modelItem => item.Customer.Phone)</td>
+        <td>@Html.DisplayFor(modelItem => item.Customer.Email)</td>
+        <td>
+            @{if(item.Status == "Shipped" || item.Status == "Processed"){
+              @Html.ActionLink("Details", "Details", new { id=item.OrderID })
+              }
+              
+              else{
+            @Html.ActionLink(" Edit |", "Edit", new { id=item.OrderID }) 
+            @Html.ActionLink(" Details |", "Details", new { id=item.OrderID }) 
+            @Html.ActionLink(" Delete", "Delete", new { id=item.OrderID })
+              } }
+            
+            
+        </td>
+    </tr>
+}
+
+</table>

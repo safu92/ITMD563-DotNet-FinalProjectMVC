@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Safdar's Shopping Cart Portal</h1>
+    <p class="lead">This is the shopping cart portal which allows customer to buy products.</p>
+    <p><a href="~/Product/" class="btn btn-primary btn-lg">Browse Products &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Customers</h2>
+        <p>
+            Customers page allows us to view, modify, delete all the customers but it does not delete the customers which has order associated with them. 
+        </p>
+        <p><a class="btn btn-default" href="~/Customer/">View Customers &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Orders</h2>
+        <p> This page will show the orders and you can edit order status but the edit and delete option will not be enabled if the order is processed or shipped. </p>
+        <p><a class="btn btn-default" href="~/Order/">View orders &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Shopping Cart</h2>
+        <p>You can view the items you added to your cart by visiting my cart here. And then you can checkout the cart.</p>
+        <p><a class="btn btn-default" href="~/Cart/">My Cart &raquo;</a></p>
+    </div>
+</div>
